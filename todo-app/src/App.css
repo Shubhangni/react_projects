@@ -1,0 +1,13 @@
+.kg-row {
+  text-align: left;
+  margin: 20px;
+}
+
+.kg-heading {
+  font-weight: 600;
+  margin: 20px;
+}
+
+.kg-button {
+  min-width: 80px;
+}

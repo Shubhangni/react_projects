@@ -1,6 +1,5 @@
 
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import AddTodo from './components/addTodo'
 import TodoItems from './components/todoItems'
 import { useState } from 'react';

@@ -17,7 +17,7 @@ function App() {
   let setTextState = textStateArr[1]; //setStateMethod
   console.log("textToShow", textToShow) */}
 
-  let [textToShow, setTextToShow] = useState("Food item entered by user");
+  // let [textToShow, setTextToShow] = useState("Food item entered by user");
   let [foodItems, setFoodItems] = useState(['Beans', 'Pulses', 'Green Vegetables']);
 
   // console.log("textToShow", textToShow)
@@ -29,6 +29,7 @@ function App() {
       let newItems = [...foodItems, newFoodItem]
       console.log("newFoodItem", newFoodItem)
       setFoodItems(newItems)
+      // setTextToShow(event.target.value)
     }
 
   }
@@ -39,7 +40,7 @@ function App() {
         <h1 className="kg-heading">Healthy Food</h1>
         <ErrorMessage items={foodItems}></ErrorMessage>
         <EnterFoodInput handleKeyDown={handleKeyDown}></EnterFoodInput>
-
+        {/* {textToShow}*/}
         <FoodItems items={foodItems}></FoodItems>
       </Container>
       {/* <Container>
